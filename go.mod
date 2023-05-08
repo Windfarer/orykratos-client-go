@@ -1,4 +1,4 @@
-module github.com/Windfarer/kratos-client-go
+module github.com/Windfarer/orykratos-client-go
 
 go 1.17
 
