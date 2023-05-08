@@ -26,6 +26,7 @@ const (
 	IDENTITYCREDENTIALSTYPE_OIDC IdentityCredentialsType = "oidc"
 	IDENTITYCREDENTIALSTYPE_WEBAUTHN IdentityCredentialsType = "webauthn"
 	IDENTITYCREDENTIALSTYPE_LOOKUP_SECRET IdentityCredentialsType = "lookup_secret"
+	IDENTITYCREDENTIALSTYPE_LDAP IdentityCredentialsType = "ldap"
 )
 
 // All allowed values of IdentityCredentialsType enum
@@ -35,6 +36,7 @@ var AllowedIdentityCredentialsTypeEnumValues = []IdentityCredentialsType{
 	"oidc",
 	"webauthn",
 	"lookup_secret",
+	"ldap",
 }
 
 func (v *IdentityCredentialsType) UnmarshalJSON(src []byte) error {
